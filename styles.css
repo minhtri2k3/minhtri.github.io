@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Akaya+Kanadaka&display=swap');
+body {
+    font-family: "ABeeZee", sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;   
+}
+.font{
+    font-family: "Akaya Kanadaka", system-ui;
+}
+.r{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    grid-gap: 40px;
+}
+gray {
+    color: gray;
+    font-size: 13px;
+}
+.card {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.r2 {
+    display: grid;
+}
+
+.c1 center{
+    text-align: center;
+  
+}
+.c2{
+    display: grid;
+    grid-template-columns:  0.3fr 0.6fr 0.8fr;
+   }
+   .c2 #sub1   {
+    display: grid;
+   }
+   .c2 #sub2   {
+    display: grid;
+    grid-template-rows:    auto;
+    grid-template-columns:auto;
+   }
+   .c2 #sub3   {
+    display: flex;
+    align-items:    center;
+    padding-inline-start: 30px;
+}
